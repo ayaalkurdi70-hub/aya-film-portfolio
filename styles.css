@@ -1038,3 +1038,26 @@ body {
         max-height: none;
     }
 }
+
+
+/* Field Training video prompt: restrained Dark Olive Cinema link treatment. */
+.field-training-video-prompt {
+    margin: 1.5rem 0 0;
+    color: #f3f0e9;
+    font-size: 0.95rem;
+    letter-spacing: 0.04em;
+}
+
+.field-training-video-prompt a {
+    color: #b89b72;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(184, 155, 114, 0.7);
+    transition: color 180ms ease, border-color 180ms ease;
+}
+
+.field-training-video-prompt a:hover,
+.field-training-video-prompt a:focus-visible {
+    color: #f3f0e9;
+    border-color: #f3f0e9;
+}
